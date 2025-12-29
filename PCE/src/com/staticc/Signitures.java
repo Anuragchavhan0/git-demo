@@ -5,6 +5,8 @@ public class Signitures {
 	 static public void main(String ... args) {
 		// TODO Auto-generated method stub
 		System.out.println("PCE");
+		
+		// calling the main methods 
 		int a;
 		main('a');
 		main(344);
@@ -24,8 +26,5 @@ public class Signitures {
 			System.out.println("main accepting char type of input");
 			
 		}
-	 
-	   	
-	 
 	 
 }
