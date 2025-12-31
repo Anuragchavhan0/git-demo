@@ -33,7 +33,7 @@ public class TrainerApp {
 		// TODO Auto-generated method stub
 		
 		// Normal method to call 
-//		Trainer t;
+	  // Trainer t;
 //		t = new JavaTrainer();
 //		t.teach();
 //		t = new AptiTrainer();
