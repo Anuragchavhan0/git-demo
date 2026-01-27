@@ -1,5 +1,5 @@
 package com.exception;
-
+/*
 import java.util.Scanner;
 
 class Test1{
@@ -49,3 +49,5 @@ public class Exception2 {
 	}
 
 }
+
+*/

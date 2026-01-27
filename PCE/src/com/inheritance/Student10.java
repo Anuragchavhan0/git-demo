@@ -1,17 +1,11 @@
 package com.inheritance;
-
-class parent10{
-	int x=10;
-	void  disp() {
-		System.out.println(x);
-	}
+/*
+ abstract class parent10{
+ abstract void  disp();
 }
 class child10 extends parent10{
-	 int x=20;
-	void disp() {
-	System.out.println(x);
-	}
-}
+	
+	void disp() {};
 public class Student10 {
 
 	public static void main(String[] args) {
@@ -22,3 +16,4 @@ public class Student10 {
 	}
 
 }
+*/

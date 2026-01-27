@@ -1,5 +1,5 @@
 package com.inheritance;
-
+/*
 public class RullNo2 {
 
 	public static void main(String[] args) {
@@ -25,3 +25,4 @@ class Child extends Parent{
 	
 
 }
+*/

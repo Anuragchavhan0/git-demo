@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="CalciByAnurag"/>
+	<classpathentry kind="src" path="BankAppByAnurag"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
