@@ -14,6 +14,8 @@ public class LinkedList2 {
 		ll.add(45);
 		ll.add(1,909);
 		System.out.println(ll);
+		
+		
 	}
 
 }
