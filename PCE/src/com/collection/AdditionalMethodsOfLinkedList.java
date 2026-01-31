@@ -7,7 +7,7 @@ public class AdditionalMethodsOfLinkedList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		LinkedList ll= new LinkedList();
+		LinkedList<Integer> ll= new LinkedList<>();
 		ll.add(10);
 		ll.add(10);
 		ll.add(50);
@@ -18,7 +18,7 @@ public class AdditionalMethodsOfLinkedList {
 		ll.get(2);
 		
 		// stack 
-		LinkedList ll2= new LinkedList();
+		LinkedList<Integer> ll2= new LinkedList<>();
 		ll2.push(10);
 		ll2.push(20);
 		ll2.push(30);

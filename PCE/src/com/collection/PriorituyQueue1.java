@@ -7,7 +7,7 @@ public class PriorituyQueue1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		PriorityQueue pq = new PriorityQueue();
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		pq.add(100);
 		pq.add(50);
 		pq.add(150);

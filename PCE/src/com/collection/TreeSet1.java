@@ -8,7 +8,7 @@ public class TreeSet1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		TreeSet ts= new TreeSet();
+		TreeSet<Integer> ts= new TreeSet<>();
 		ts.add(100);
 		ts.add(50);
 		ts.add(150);

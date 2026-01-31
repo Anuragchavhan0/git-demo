@@ -9,7 +9,7 @@ public class IteraterInJava {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ArrayList lh = new ArrayList();
+		ArrayList<Integer> lh = new ArrayList<>();
 		lh.add(100);
 		lh.add(50);
 		lh.add(150);
@@ -18,14 +18,14 @@ public class IteraterInJava {
 		lh.add(125);
 		lh.add(175);
 		
-	  Iterator itr =lh.DecendingItorator();
-	  while(itr.hasNext()) {
-		  System.out.print(itr.next()+" ");
+	 // Iterator itr =lh.DecendingItorator();
+	 // while(itr.hasNext()) {
+		//  System.out.print(itr.next()+" ");
 		  
 	  }
 	  
 	}
 		
-}
+
 
 

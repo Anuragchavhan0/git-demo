@@ -16,7 +16,7 @@ public class ArrayList01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ArrayList v2 = new ArrayList();
+		ArrayList<Integer> v2 = new ArrayList<>();
 		v2.add(100);
 		v2.add(50);
 		v2.add(150);
@@ -34,7 +34,7 @@ public class ArrayList01 {
 //		}
 //		
 //		
-		Iterator itr1 =v2.iterator();
+		Iterator<Integer> itr1 =v2.iterator();
 		  while(itr1.hasNext()) {
 			  System.out.println(itr1.next()+" ");
 			  v2.add(20);

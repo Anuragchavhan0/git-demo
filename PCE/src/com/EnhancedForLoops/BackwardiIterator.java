@@ -9,7 +9,7 @@ public class BackwardiIterator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ArrayList lh = new ArrayList();
+		ArrayList<Integer> lh = new ArrayList<>();
 		lh.add(100);
 		lh.add(50);
 		lh.add(150);
@@ -18,7 +18,7 @@ public class BackwardiIterator {
 		lh.add(125);
 		lh.add(175);
 		
-	  ListIterator itr =lh.listIterator(lh.size());
+	  ListIterator<Integer> itr =lh.listIterator(lh.size());
 	  while(itr.hasPrevious()) {
 		  System.out.print((itr.previous())+" ");
 		  

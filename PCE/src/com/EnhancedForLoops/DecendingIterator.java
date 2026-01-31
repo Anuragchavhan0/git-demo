@@ -9,7 +9,7 @@ public class DecendingIterator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		LinkedList lh = new LinkedList();
+		LinkedList<Integer> lh = new LinkedList<>();
 		lh.add(100);
 		lh.add(50);
 		lh.add(150);
@@ -18,7 +18,7 @@ public class DecendingIterator {
 		lh.add(125);
 		lh.add(175);
 		
-	  Iterator itr =lh.descendingIterator();
+	  Iterator<Integer> itr =lh.descendingIterator();
 	  while(itr.hasNext()) {
 		  System.out.print(itr.next()+" ");
 		  

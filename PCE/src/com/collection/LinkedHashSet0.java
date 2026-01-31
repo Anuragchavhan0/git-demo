@@ -6,7 +6,7 @@ public class LinkedHashSet0 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedHashSet lh = new LinkedHashSet();
+		LinkedHashSet<Integer> lh = new LinkedHashSet<>();
 		lh.add(100);
 		lh.add(50);
 		lh.add(150);

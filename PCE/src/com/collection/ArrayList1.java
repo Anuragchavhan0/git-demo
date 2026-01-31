@@ -1,12 +1,13 @@
 package com.collection;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 public class ArrayList1 {
 
 	public static void main(String[] args) {
 		
-		ArrayList al = new ArrayList();
+		ArrayList<Serializable> al = new ArrayList<>();
 		al.add(10);
 		al.add("anurag");
 		al.add(true);
@@ -16,7 +17,7 @@ public class ArrayList1 {
 		
 		System.out.println(al);
 		
-		ArrayList al1 = new ArrayList();
+		ArrayList<Comparable> al1 = new ArrayList<>();
 		al1.add(10);
 		al1.add("hfhu");
 		al1.add(30);

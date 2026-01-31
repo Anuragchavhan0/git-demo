@@ -6,7 +6,7 @@ public class ArrayDeque1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayDeque al = new ArrayDeque();
+		ArrayDeque<Comparable> al = new ArrayDeque<>();
 		al.add(10);
 		al.add("anurag");
 		al.add(true);

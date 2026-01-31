@@ -9,7 +9,7 @@ public class Vector0 {
 		// TODO Auto-generated method stub
 
 		
-		Vector v = new Vector();
+		Vector<Integer> v = new Vector<>();
 		v.add(100);
 		v.add(50);
 		v.add(150);
@@ -20,7 +20,7 @@ public class Vector0 {
 	
 	
 		
-		Enumeration el =v.elements();
+		Enumeration<Integer> el =v.elements();
 			while(el.hasMoreElements()) {
 				System.out.print(el.nextElement()+ " ");
 			}

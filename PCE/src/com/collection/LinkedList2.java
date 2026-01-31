@@ -6,7 +6,7 @@ public class LinkedList2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedList ll= new LinkedList();
+		LinkedList<Integer> ll= new LinkedList<>();
 		ll.add(10);
 		ll.add(50);
 		ll.addLast(89);

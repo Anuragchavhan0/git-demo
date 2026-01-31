@@ -7,7 +7,7 @@ public class HashSet1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		HashSet hs = new HashSet();
+		HashSet<Integer> hs = new HashSet<>();
 		hs.add(100);
 		hs.add(50);
 		hs.add(150);
