@@ -18,7 +18,7 @@ public class IteraterInJava {
 		lh.add(125);
 		lh.add(175);
 		
-	  Iterator itr =lh.listIterator();
+	  Iterator itr =lh.DecendingItorator();
 	  while(itr.hasNext()) {
 		  System.out.print(itr.next()+" ");
 		  
